@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/above_avarage.dir/src/above-avarage.cpp.o  -o above_avarage 

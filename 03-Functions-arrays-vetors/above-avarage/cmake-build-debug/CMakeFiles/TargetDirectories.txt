@@ -1,3 +1,0 @@
-/home/vas/eclipse-workspace/above-avarage/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/vas/eclipse-workspace/above-avarage/cmake-build-debug/CMakeFiles/above_avarage.dir
-/home/vas/eclipse-workspace/above-avarage/cmake-build-debug/CMakeFiles/edit_cache.dir
