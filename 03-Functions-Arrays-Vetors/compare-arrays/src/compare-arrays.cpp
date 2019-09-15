@@ -1,37 +1,25 @@
 #include <iostream>
 #include <cmath>
+#include <vector>
 
-
-bool areEqual(int arr1[], int length1, int arr2[], int length2) {
-	if (length1 != length2) {
-		return false;
+std::vector<int> readIntArray() {
+	std::vector<int> array;
+	int length;
+	std::cin >> length;
+	for (int i = 0; i < length; i++) {
+		int num;
+		std::cin >> num;
+		array.push_back(num);
 	}
 
-	for (int i = 0; i < length1; i++) {
-		if (arr1[i] != arr2[i]) {
-			return false;
-		}
-	}
-
-	return true;
+	return array;
 }
 
 int main() {
-	int firstMaxLength;
-	std::cin >> firstMaxLength;
-	int arrayOne[firstMaxLength];
-	for (int i = 0; i < firstMaxLength; i++) {
-		std::cin >> arrayOne[i];
-	}
+	std::vector<int> arrayOne = readIntArray();
+	std::vector<int> arrayTwo = readIntArray();
 
-	int secondMaxLength;
-	std::cin >> secondMaxLength;
-	int arrayTwo[secondMaxLength];
-	for (int i = 0; i < secondMaxLength; i++) {
-		std::cin >> arrayTwo[i];
-	}
-
-	if (areEqual(arrayOne, firstMaxLength, arrayTwo,secondMaxLength)) {
+	if (arrayOne == arrayTwo) {
 		std::cout << "equal";
 	} else {
 		std::cout << "not equal";

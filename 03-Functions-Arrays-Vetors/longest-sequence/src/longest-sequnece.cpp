@@ -1,16 +1,24 @@
 #include <iostream>
+#include <vector>
 
-int main() {
+std::vector<int> readIntArray() {
+	std::vector<int> array;
 	int length;
 	std::cin >> length;
-
-	if (length == 0) {
-		return 0;
+	for (int i = 0; i < length; i++) {
+		int num;
+		std::cin >> num;
+		array.push_back(num);
 	}
 
-	int array[length];
-	for (int i = 0; i < length; i++) {
-		std::cin >> array[i];
+	return array;
+}
+
+int main() {
+	std::vector<int> array = readIntArray();
+
+	if (array.size() == 0) {
+		return 0;
 	}
 
 	int element = array[0];
@@ -19,7 +27,7 @@ int main() {
 	int currentElement = array[0];
 	int currentCount = 1;
 
-	for (int i = 1; i < length; i++) {
+	for (int i = 1; i < array.size(); i++) {
 		int arrayElement = array[i];
 		if (arrayElement == currentElement) {
 			currentCount++;
