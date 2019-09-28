@@ -21,3 +21,10 @@ add_executable(cartesian-product.cpp "${L03}cartesian-product.cpp")
 add_executable(longest-sequnece.cpp "${L03}longest-sequnece.cpp")
 add_executable(most-frequent-number.cpp "${L03}most-frequent-number.cpp")
 add_executable(closest-numbers.cpp "${L03}closest-numbers.cpp")
+
+set(L04 "04-Exercises/")
+
+add_executable(operations.cpp "${L04}exercises/operations.cpp")
+add_executable(index-of.cpp "${L04}exercises/index-of.cpp")
+add_executable(remove.cpp "${L04}exercises/remove.cpp")
+add_executable(noise.cpp "${L04}exercises/noise.cpp")

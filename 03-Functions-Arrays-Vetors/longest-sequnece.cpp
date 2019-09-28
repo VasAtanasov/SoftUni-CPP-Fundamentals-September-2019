@@ -17,7 +17,7 @@ std::vector<int> readIntArray() {
 int main() {
 	std::vector<int> array = readIntArray();
 
-	if (array.size() == 0) {
+	if (array.empty()) {
 		return 0;
 	}
 
