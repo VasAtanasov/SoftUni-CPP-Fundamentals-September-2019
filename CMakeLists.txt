@@ -28,3 +28,8 @@ add_executable(operations.cpp "${L04}exercises/operations.cpp")
 add_executable(index-of.cpp "${L04}exercises/index-of.cpp")
 add_executable(remove.cpp "${L04}exercises/remove.cpp")
 add_executable(noise.cpp "${L04}exercises/noise.cpp")
+
+add_executable(pipes.cpp "${L04}JA1/pipes.cpp")
+add_executable(modulated-sum.cpp "${L04}JA1/modulated-sum.cpp")
+add_executable(bus.cpp "${L04}JA1/bus.cpp")
+add_executable(roxettes.cpp "${L04}JA1/roxettes.cpp")
