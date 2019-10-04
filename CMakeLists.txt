@@ -39,3 +39,8 @@ set(L05 "05-String-and-Streams/")
 
 add_executable(compare-arrays-again.cpp "${L05}compare-arrays-again.cpp")
 add_executable(mathematical-expression.cpp "${L05}mathematical-expression.cpp")
+add_executable(title-case.cpp "${L05}title-case.cpp")
+add_executable(replace-all.cpp "${L05}replace-all.cpp")
+add_executable(invalid-input.cpp "${L05}invalid-input.cpp")
+add_executable(the-signal-and-the-noise.cpp "${L05}the-signal-and-the-noise.cpp")
+add_executable(the-noise-and-the-signal.cpp "${L05}the-noise-and-the-signal.cpp")
