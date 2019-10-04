@@ -33,3 +33,8 @@ add_executable(pipes.cpp "${L04}JA1/pipes.cpp")
 add_executable(modulated-sum.cpp "${L04}JA1/modulated-sum.cpp")
 add_executable(bus.cpp "${L04}JA1/bus.cpp")
 add_executable(roxettes.cpp "${L04}JA1/roxettes.cpp")
+add_executable(roxettes_other.cpp "${L04}JA1/roxettes_other.cpp")
+
+set(L05 "05-String-and-Streams/")
+
+add_executable(compare-arrays-again.cpp "${L05}compare-arrays-again.cpp")
