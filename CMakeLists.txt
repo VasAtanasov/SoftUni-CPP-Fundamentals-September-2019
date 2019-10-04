@@ -38,3 +38,4 @@ add_executable(roxettes_other.cpp "${L04}JA1/roxettes_other.cpp")
 set(L05 "05-String-and-Streams/")
 
 add_executable(compare-arrays-again.cpp "${L05}compare-arrays-again.cpp")
+add_executable(mathematical-expression.cpp "${L05}mathematical-expression.cpp")
