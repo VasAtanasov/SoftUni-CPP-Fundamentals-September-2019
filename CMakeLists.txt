@@ -51,3 +51,5 @@ set(L06 "06-Linear-Containers/")
 
 add_executable(compare-matrix.cpp "${L06}compare-matrix.cpp")
 add_executable(position-of.cpp "${L06}position-of.cpp")
+add_executable(merge-trains.cpp "${L06}merge-trains.cpp")
+add_executable(brackets.cpp "${L06}brackets.cpp")
