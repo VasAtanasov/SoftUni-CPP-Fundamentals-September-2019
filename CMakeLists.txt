@@ -53,3 +53,9 @@ add_executable(compare-matrix.cpp "${L06}compare-matrix.cpp")
 add_executable(position-of.cpp "${L06}position-of.cpp")
 add_executable(merge-trains.cpp "${L06}merge-trains.cpp")
 add_executable(brackets.cpp "${L06}brackets.cpp")
+
+set(L07 "07-Exercises/")
+
+add_executable(reverse-words.cpp "${L07}exercises/reverse-words.cpp")
+
+add_executable(hex-colors.cpp "${L07}JA2/hex-colors.cpp")
