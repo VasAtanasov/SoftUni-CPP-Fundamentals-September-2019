@@ -9,17 +9,15 @@ bool areMatch(std::string &firstWord, std::string &secondWord, double matchIndex
 std::vector<std::string> getWordsFromText(std::string &tex);
 
 int main() {
-    std::string firstLine, secondLine, word;
+    std::string firstLine, secondLine, matchWord;
     double matchIndex;
 
-    readInput(firstLine, secondLine, word, matchIndex);
+    readInput(firstLine, secondLine, matchWord, matchIndex);
 
     int matchCount = 0;
-
     std::vector<std::string> words = getWordsFromText(firstLine);
-
-    for (auto &it : words) {
-        if (areMatch(it, word, matchIndex)) {
+    for (auto &word : words) {
+        if (areMatch(word, matchWord, matchIndex)) {
             ++matchCount;
         }
     }
@@ -42,7 +40,10 @@ void readInput(std::string &firstLine,
     stringStream.clear();
 }
 
-bool areMatch(std::string &firstWord, std::string &secondWord, double matchIndex) {
+bool areMatch(std::string &firstWord,
+              std::string &secondWord,
+              double matchIndex) {
+
     if (firstWord.length() != secondWord.length()) {
         return false;
     }
