@@ -59,3 +59,4 @@ set(L07 "07-Exercises/")
 add_executable(reverse-words.cpp "${L07}exercises/reverse-words.cpp")
 
 add_executable(hex-colors.cpp "${L07}JA2/hex-colors.cpp")
+add_executable(similarity.cpp "${L07}JA2/similarity.cpp")

@@ -22,8 +22,8 @@ int main() {
         ss.clear();
         int x = 0, y = 0;
 
-        hexToDecimal(ss, stringOne, x,i);
-        hexToDecimal(ss, stringTwo, y,i);
+        hexToDecimal(ss, stringOne, x, i);
+        hexToDecimal(ss, stringTwo, y, i);
 
         int average = ((x + y) / 2);
         strings.push_back(decimalToHexadecimal(average));
